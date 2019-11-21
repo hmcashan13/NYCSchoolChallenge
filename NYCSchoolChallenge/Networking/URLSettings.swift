@@ -9,8 +9,7 @@
 import Foundation
 
 struct URLSettings {
-    
-    private var baseURL: String {
+    var url: String {
         get {
             if ProcessInfo.processInfo.arguments.contains("TESTING") {
                 return "http://localhost:8080/test"
@@ -19,11 +18,4 @@ struct URLSettings {
             }
         }
     }
-    
-    var url: String {
-        get {
-            return baseURL
-        }
-    }
-    
 }

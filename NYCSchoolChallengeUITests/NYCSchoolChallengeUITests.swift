@@ -12,7 +12,6 @@ import XCTest
 class NYCSchoolChallengeUITests: XCTestCase {
 
     let stubs = DynamicStubs()
-    
     lazy var app: XCUIApplication = XCUIApplication()
     
     override func setUp() {
