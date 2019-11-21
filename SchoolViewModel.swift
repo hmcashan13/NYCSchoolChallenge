@@ -16,7 +16,6 @@ class SchoolViewModel {
     let data: BehaviorSubject<[School]> = BehaviorSubject<[School]>(value: [])
     let loading: BehaviorSubject<Bool> = BehaviorSubject<Bool>(value: false)
     let error: PublishSubject<String> = PublishSubject<String>()
-    
     init() {
         refresh()
     }

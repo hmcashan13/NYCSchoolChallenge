@@ -5,16 +5,34 @@ PODS:
   - RxRelay (5.0.0):
     - RxSwift (~> 5)
   - RxSwift (5.0.0)
+  - Swifter (1.4.7)
 
 DEPENDENCIES:
   - RxCocoa (~> 5)
   - RxSwift (~> 5)
+  - Swifter (from `https://github.com/httpswift/swifter.git`)
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  Swifter:
+    :git: https://github.com/httpswift/swifter.git
+
+CHECKOUT OPTIONS:
+  Swifter:
+    :commit: 74d111d6bab7ccbfb5284b68d52ffb56f0f0d903
+    :git: https://github.com/httpswift/swifter.git
 
 SPEC CHECKSUMS:
   RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
   RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  Swifter: 1c6973f7cef90e92f305db5caca72ab414d7948e
 
-PODFILE CHECKSUM: 03878abdc3f3f58bee3ef61770596742f8937b40
+PODFILE CHECKSUM: 161cef71d238e2d0f1cd7c063adcf7a7e9b2f96c
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.8.4

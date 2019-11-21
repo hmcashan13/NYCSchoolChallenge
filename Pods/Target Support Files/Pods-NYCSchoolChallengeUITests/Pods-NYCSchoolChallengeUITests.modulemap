@@ -1,0 +1,6 @@
+module Pods_NYCSchoolChallengeUITests {
+  umbrella header "Pods-NYCSchoolChallengeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

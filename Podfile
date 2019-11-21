@@ -8,5 +8,10 @@ target 'NYCSchoolChallenge' do
   # Pods for NYCSchoolChallenge
     pod 'RxSwift', '~> 5'
     pod 'RxCocoa', '~> 5'
+    
+    #'~> 1.4.7'
+end
 
+target 'NYCSchoolChallengeUITests' do
+  pod 'Swifter', :git => 'https://github.com/httpswift/swifter.git'
 end

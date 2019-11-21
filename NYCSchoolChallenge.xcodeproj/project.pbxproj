@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52997F3530601E6DA15357AB /* libPods-NYCSchoolChallengeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B9A1E072F7BBC32B354066 /* libPods-NYCSchoolChallengeUITests.a */; };
 		5A023EB794BD6B4E8D50D395 /* Pods_NYCSchoolChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF3F3065E80617B888635D1 /* Pods_NYCSchoolChallenge.framework */; };
 		E7A55C7922CACB93009AE857 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A55C7822CACB93009AE857 /* AppDelegate.swift */; };
 		E7A55C7B22CACB93009AE857 /* SchoolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A55C7A22CACB93009AE857 /* SchoolsViewController.swift */; };
@@ -20,10 +21,21 @@
 		E7A55CA522CAF663009AE857 /* SATModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A55CA422CAF663009AE857 /* SATModel.swift */; };
 		E7A55CAA22CAF6A0009AE857 /* SchoolDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A55CA922CAF6A0009AE857 /* SchoolDetailViewController.swift */; };
 		E7A55CB122CAF6E3009AE857 /* SchoolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A55CB022CAF6E3009AE857 /* SchoolCell.swift */; };
+		E7C757B3238746680092BD85 /* NYCSchoolChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C757B2238746680092BD85 /* NYCSchoolChallengeUITests.swift */; };
+		E7C757BB238747600092BD85 /* DynamicStubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C757BA2387475F0092BD85 /* DynamicStubs.swift */; };
+		E7C757BD238747E30092BD85 /* URLSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C757BC238747E30092BD85 /* URLSettings.swift */; };
+		E7C757C023874D590092BD85 /* StubbedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C757BE23874B780092BD85 /* StubbedData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		E7A55C8A22CACB94009AE857 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7A55C6D22CACB93009AE857 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7A55C7422CACB93009AE857;
+			remoteInfo = NYCSchoolChallenge;
+		};
+		E7C757B5238746680092BD85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E7A55C6D22CACB93009AE857 /* Project object */;
 			proxyType = 1;
@@ -35,7 +47,10 @@
 /* Begin PBXFileReference section */
 		70601C3057CBB2444A8FC136 /* Pods-NYCSchoolChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYCSchoolChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYCSchoolChallenge/Pods-NYCSchoolChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		7FF3F3065E80617B888635D1 /* Pods_NYCSchoolChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYCSchoolChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32EF865C7C4A3022295F127 /* Pods-NYCSchoolChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYCSchoolChallengeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYCSchoolChallengeUITests/Pods-NYCSchoolChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B9B9A1E072F7BBC32B354066 /* libPods-NYCSchoolChallengeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NYCSchoolChallengeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C727B5BA2584BA498D88E846 /* Pods-NYCSchoolChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYCSchoolChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYCSchoolChallenge/Pods-NYCSchoolChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		E00CB85440589CFCBF1D0E4E /* Pods-NYCSchoolChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYCSchoolChallengeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYCSchoolChallengeUITests/Pods-NYCSchoolChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E7A55C7522CACB93009AE857 /* NYCSchoolChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYCSchoolChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A55C7822CACB93009AE857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7A55C7A22CACB93009AE857 /* SchoolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +67,12 @@
 		E7A55CA422CAF663009AE857 /* SATModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATModel.swift; sourceTree = "<group>"; };
 		E7A55CA922CAF6A0009AE857 /* SchoolDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailViewController.swift; sourceTree = "<group>"; };
 		E7A55CB022CAF6E3009AE857 /* SchoolCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolCell.swift; sourceTree = "<group>"; };
+		E7C757B0238746680092BD85 /* NYCSchoolChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYCSchoolChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C757B2238746680092BD85 /* NYCSchoolChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolChallengeUITests.swift; sourceTree = "<group>"; };
+		E7C757B4238746680092BD85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C757BA2387475F0092BD85 /* DynamicStubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicStubs.swift; sourceTree = "<group>"; };
+		E7C757BC238747E30092BD85 /* URLSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSettings.swift; sourceTree = "<group>"; };
+		E7C757BE23874B780092BD85 /* StubbedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubbedData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +91,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7C757AD238746680092BD85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52997F3530601E6DA15357AB /* libPods-NYCSchoolChallengeUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				7FF3F3065E80617B888635D1 /* Pods_NYCSchoolChallenge.framework */,
+				B9B9A1E072F7BBC32B354066 /* libPods-NYCSchoolChallengeUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -86,6 +116,8 @@
 			children = (
 				70601C3057CBB2444A8FC136 /* Pods-NYCSchoolChallenge.debug.xcconfig */,
 				C727B5BA2584BA498D88E846 /* Pods-NYCSchoolChallenge.release.xcconfig */,
+				E00CB85440589CFCBF1D0E4E /* Pods-NYCSchoolChallengeUITests.debug.xcconfig */,
+				A32EF865C7C4A3022295F127 /* Pods-NYCSchoolChallengeUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -95,6 +127,7 @@
 			children = (
 				E7A55C7722CACB93009AE857 /* NYCSchoolChallenge */,
 				E7A55C8C22CACB94009AE857 /* NYCSchoolChallengeTests */,
+				E7C757B1238746680092BD85 /* NYCSchoolChallengeUITests */,
 				E7A55C7622CACB93009AE857 /* Products */,
 				5651D469CC7EE3F3FA0EE2F4 /* Pods */,
 				16AF64B381B3C924EB934180 /* Frameworks */,
@@ -106,6 +139,7 @@
 			children = (
 				E7A55C7522CACB93009AE857 /* NYCSchoolChallenge.app */,
 				E7A55C8922CACB94009AE857 /* NYCSchoolChallengeTests.xctest */,
+				E7C757B0238746680092BD85 /* NYCSchoolChallengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,11 +148,9 @@
 			isa = PBXGroup;
 			children = (
 				E7A55C7822CACB93009AE857 /* AppDelegate.swift */,
-				E7A55CA822CAF675009AE857 /* Controller */,
 				E7A55CAB22CAF6B5009AE857 /* View */,
 				E7A55C9B22CAF5C5009AE857 /* ViewModel */,
 				E7A55C9A22CAF5AE009AE857 /* Model */,
-				E7A55CA322CAF645009AE857 /* Persistance */,
 				E7A55C9C22CAF5D4009AE857 /* Networking */,
 				E7A55C7C22CACB93009AE857 /* Main.storyboard */,
 				E7A55C7F22CACB94009AE857 /* Assets.xcassets */,
@@ -159,32 +191,30 @@
 			isa = PBXGroup;
 			children = (
 				E7A55C9F22CAF61C009AE857 /* DataFetcher.swift */,
+				E7C757BC238747E30092BD85 /* URLSettings.swift */,
 			);
 			path = Networking;
-			sourceTree = "<group>";
-		};
-		E7A55CA322CAF645009AE857 /* Persistance */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Persistance;
-			sourceTree = "<group>";
-		};
-		E7A55CA822CAF675009AE857 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				E7A55C7A22CACB93009AE857 /* SchoolsViewController.swift */,
-				E7A55CA922CAF6A0009AE857 /* SchoolDetailViewController.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		E7A55CAB22CAF6B5009AE857 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E7A55C7A22CACB93009AE857 /* SchoolsViewController.swift */,
+				E7A55CA922CAF6A0009AE857 /* SchoolDetailViewController.swift */,
 				E7A55CB022CAF6E3009AE857 /* SchoolCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E7C757B1238746680092BD85 /* NYCSchoolChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7C757B2238746680092BD85 /* NYCSchoolChallengeUITests.swift */,
+				E7C757BE23874B780092BD85 /* StubbedData.swift */,
+				E7C757BA2387475F0092BD85 /* DynamicStubs.swift */,
+				E7C757B4238746680092BD85 /* Info.plist */,
+			);
+			path = NYCSchoolChallengeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +229,6 @@
 				E7A55C7222CACB93009AE857 /* Frameworks */,
 				E7A55C7322CACB93009AE857 /* Resources */,
 				F9CE4CE10315F51AD164A4A8 /* [CP] Embed Pods Frameworks */,
-				209FAF97D8C13087917661F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,13 +257,32 @@
 			productReference = E7A55C8922CACB94009AE857 /* NYCSchoolChallengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E7C757AF238746680092BD85 /* NYCSchoolChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C757B7238746680092BD85 /* Build configuration list for PBXNativeTarget "NYCSchoolChallengeUITests" */;
+			buildPhases = (
+				3602F02A11FDCF0B02DCD563 /* [CP] Check Pods Manifest.lock */,
+				E7C757AC238746680092BD85 /* Sources */,
+				E7C757AD238746680092BD85 /* Frameworks */,
+				E7C757AE238746680092BD85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7C757B6238746680092BD85 /* PBXTargetDependency */,
+			);
+			name = NYCSchoolChallengeUITests;
+			productName = NYCSchoolChallengeUITests;
+			productReference = E7C757B0238746680092BD85 /* NYCSchoolChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		E7A55C6D22CACB93009AE857 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
+				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Guardian Angel";
 				TargetAttributes = {
@@ -243,6 +291,10 @@
 					};
 					E7A55C8822CACB94009AE857 = {
 						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E7A55C7422CACB93009AE857;
+					};
+					E7C757AF238746680092BD85 = {
+						CreatedOnToolsVersion = 11.2.1;
 						TestTargetID = E7A55C7422CACB93009AE857;
 					};
 				};
@@ -262,6 +314,7 @@
 			targets = (
 				E7A55C7422CACB93009AE857 /* NYCSchoolChallenge */,
 				E7A55C8822CACB94009AE857 /* NYCSchoolChallengeTests */,
+				E7C757AF238746680092BD85 /* NYCSchoolChallengeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,10 +337,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7C757AE238746680092BD85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		209FAF97D8C13087917661F8 /* [CP] Copy Pods Resources */ = {
+		3602F02A11FDCF0B02DCD563 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -295,15 +355,18 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NYCSchoolChallengeUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYCSchoolChallenge/Pods-NYCSchoolChallenge-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F5FCDF782784FD02E3CBA6A9 /* [CP] Check Pods Manifest.lock */ = {
@@ -334,24 +397,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-NYCSchoolChallenge/Pods-NYCSchoolChallenge-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-NYCSchoolChallenge/Pods-NYCSchoolChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-NYCSchoolChallenge/Pods-NYCSchoolChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYCSchoolChallenge/Pods-NYCSchoolChallenge-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NYCSchoolChallenge/Pods-NYCSchoolChallenge-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -363,6 +417,7 @@
 			files = (
 				E7A55CA022CAF61C009AE857 /* DataFetcher.swift in Sources */,
 				E7A55CB122CAF6E3009AE857 /* SchoolCell.swift in Sources */,
+				E7C757BD238747E30092BD85 /* URLSettings.swift in Sources */,
 				E7A55C9E22CAF5E5009AE857 /* SchoolViewModel.swift in Sources */,
 				E7A55CAA22CAF6A0009AE857 /* SchoolDetailViewController.swift in Sources */,
 				E7A55C7B22CACB93009AE857 /* SchoolsViewController.swift in Sources */,
@@ -380,6 +435,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7C757AC238746680092BD85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C757B3238746680092BD85 /* NYCSchoolChallengeUITests.swift in Sources */,
+				E7C757C023874D590092BD85 /* StubbedData.swift in Sources */,
+				E7C757BB238747600092BD85 /* DynamicStubs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -387,6 +452,11 @@
 			isa = PBXTargetDependency;
 			target = E7A55C7422CACB93009AE857 /* NYCSchoolChallenge */;
 			targetProxy = E7A55C8A22CACB94009AE857 /* PBXContainerItemProxy */;
+		};
+		E7C757B6238746680092BD85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7A55C7422CACB93009AE857 /* NYCSchoolChallenge */;
+			targetProxy = E7C757B5238746680092BD85 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -559,6 +629,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = GuradianAngelCushion.NYCSchoolChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -606,6 +677,48 @@
 			};
 			name = Release;
 		};
+		E7C757B8238746680092BD85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E00CB85440589CFCBF1D0E4E /* Pods-NYCSchoolChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5673472V33;
+				INFOPLIST_FILE = NYCSchoolChallengeUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GuradianAngelCushion.NYCSchoolChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NYCSchoolChallenge;
+			};
+			name = Debug;
+		};
+		E7C757B9238746680092BD85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A32EF865C7C4A3022295F127 /* Pods-NYCSchoolChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5673472V33;
+				INFOPLIST_FILE = NYCSchoolChallengeUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GuradianAngelCushion.NYCSchoolChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NYCSchoolChallenge;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -632,6 +745,15 @@
 			buildConfigurations = (
 				E7A55C9622CACB94009AE857 /* Debug */,
 				E7A55C9722CACB94009AE857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C757B7238746680092BD85 /* Build configuration list for PBXNativeTarget "NYCSchoolChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C757B8238746680092BD85 /* Debug */,
+				E7C757B9238746680092BD85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
